@@ -66,25 +66,11 @@ Name = <string> - The name of the button.
 Callback = <function> - The function of the button.
 ]]
 local Tab = Window:MakeTab({
-	Name = "PSX",
+	Name = "Tab 1",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
 
-local Tab = Window:MakeTab({
-	Name = "Doors",
-	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
-})
-
-local Tab = Window:MakeTab({
-	Name = "Bloxfruits",
-	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
-})
-
-local Tab = Window:MakeTab({
-	Name = "Arsenal",
-	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
+local Section = Tab:AddSection({
+	Name = "Section"
 })
