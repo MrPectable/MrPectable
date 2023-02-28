@@ -77,3 +77,21 @@ while game:GetService('RunService').RenderStepped:Wait() do -- loop this process
 	end
 end
 print('MrPectable active..')
+local REGEN_RATE = 100/100 -- If you change these settings it will broke.
+local REGEN_STEP = 0 -- Don't Change These Settings!
+-- DON'T CHANGE!
+--------------------------------------------------------------------------------
+ 
+local Character = script.Parent
+local Humanoid = Character:WaitForChild'Humanoid'
+ 
+--------------------------------------------------------------------------------
+ 
+while true do
+    while Humanoid.Health < Humanoid.MaxHealth do
+        local dt = wait(REGEN_STEP)
+        local dh = dt*REGEN_RATE*Humanoid.MaxHealth
+        Humanoid.Health = math.min(Humanoid.Health + dh, Humanoid.MaxHealth)
+    end
+    Humanoid.HealthChanged:Wait()
+end
