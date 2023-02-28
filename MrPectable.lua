@@ -20,7 +20,7 @@ end)
 local Settings = {
 	['Material'] = Enum.Material.Neon, -- Material
 	['Color'] = Color3.fromRGB(0,255,255), -- Color
-	['Transparency'] = 0.7 -- 0 to 1 Transparency
+	['Transparency'] = 0.4 -- 0 to 1 Transparency
 }
 
 local ScreenGui = Instance.new('ScreenGui', game.CoreGui) -- Create screengui
