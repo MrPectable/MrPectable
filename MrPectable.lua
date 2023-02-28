@@ -66,7 +66,7 @@ Name = <string> - The name of the button.
 Callback = <function> - The function of the button.
 ]]
 local Tab = Window:MakeTab({
-	Name = "PetSimX",
+	Name = "PSX",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
@@ -83,13 +83,13 @@ Tab:AddButton({
 
 
 local Tab = Window:MakeTab({
-	Name = "Doors",
+	Name = "AFS",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
 
 local Section = Tab:AddSection({
-	Name = "Doors"
+	Name = "Anime Fighting Simulator"
 })
 Tab:AddButton({
 	Name = "Button!",
@@ -130,14 +130,13 @@ Tab:AddButton({
   	end    
 })
 local Tab = Window:MakeTab({
-	Name = "AFS",
+	Name = "Doors",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
 
 local Section = Tab:AddSection({
-	Name = "Anime Fighting Simulator"
-})
+	Name = "Doors"
 Tab:AddButton({
 	Name = "Button!",
 	Callback = function()
