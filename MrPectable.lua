@@ -66,11 +66,44 @@ Name = <string> - The name of the button.
 Callback = <function> - The function of the button.
 ]]
 local Tab = Window:MakeTab({
-	Name = "Tab 1",
+	Name = "Soon",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
 
 local Section = Tab:AddSection({
-	Name = "Section"
+	Name = "Pet Simulator X"
+})
+
+
+local Tab = Window:MakeTab({
+	Name = "Soon",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "Doors"
+})
+
+
+local Tab = Window:MakeTab({
+	Name = "Soon",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "Bloxfruits"
+})
+
+
+local Tab = Window:MakeTab({
+	Name = "Soon",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "Arsenal"
 })
