@@ -16,7 +16,7 @@ CloseCallback = <function> - Function to execute when the window is closed.
 
 local Tab = Window:MakeTab({
 	Name = "Player Misc",
-	Icon = "🎩",
+	Icon = "",
 	PremiumOnly = false
 })
 
