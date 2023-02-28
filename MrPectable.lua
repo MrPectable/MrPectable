@@ -1,6 +1,6 @@
 local Flux = loadstring(game:HttpGet"https://raw.githubusercontent.com/dawid-scripts/UI-Libs/main/fluxlib.txt")()
 
-local win = Flux:Window("MrHUB", "Created By MrPectable", Color3.fromRGB(255, 110, 48), Enum.KeyCode.LeftControl)
+local win = Flux:Window("MrHUB", "Created By MrPectable", Color3.fromRGB(17, 0, 255), Enum.KeyCode.LeftControl)
 
 local tab = win:Tab("Main User ", "http://www.roblox.com/asset/?id=12637998477")
 tab:Button("Expaned Range", "This function may lag a Bit.", function()
