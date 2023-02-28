@@ -1,9 +1,9 @@
 local Flux = loadstring(game:HttpGet"https://raw.githubusercontent.com/dawid-scripts/UI-Libs/main/fluxlib.txt")()
 
-local win = Flux:Window("MrHUB", "Created By MrPectable|UI by Dawid|Flux", Color3.fromRGB(255, 110, 48), Enum.KeyCode.LeftControl)
+local win = Flux:Window("MrHUB", "Created By MrPectable", Color3.fromRGB(255, 110, 48), Enum.KeyCode.LeftControl)
 
-local tab = win:Tab("Main User", "http://www.roblox.com/asset/?id=12637998477")
-tab:Button("Expaned Range", "This function may Lag a Bit.", function()
+local tab = win:Tab("Main User ", "http://www.roblox.com/asset/?id=12637998477")
+tab:Button("Expaned Range", "This function may lag a Bit.", function()
 Flux:Notification("Your Range Has Been Expanded!", "Only Execute this Once or Rejoin!")
     _G.HeadSize = 999
 _G.Disabled = true
