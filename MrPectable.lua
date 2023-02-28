@@ -15,7 +15,7 @@ CloseCallback = <function> - Function to execute when the window is closed.
 ]]
 
 local Tab = Window:MakeTab({
-	Name = "⌧ Player Misc",
+	Name = "🎩 Player Misc",
 	Icon = "https://tr.rbxcdn.com/d3abca00012f832f2e347784fd2f1a65/420/420/Decal/Png",
 	PremiumOnly = false
 })
@@ -27,7 +27,7 @@ PremiumOnly = <bool> - Makes the tab accessible to Sirus Premium users only.
 ]]
 
 local Section = Tab:AddSection({
-	Name = "AFS"
+	Name = "Player Scripts & Main"
 })
 
 --[[
