@@ -15,8 +15,8 @@ CloseCallback = <function> - Function to execute when the window is closed.
 ]]
 
 local Tab = Window:MakeTab({
-	Name = "AFS",
-	Icon = "rbxassetid://12637998477",
+	Name = "Anime Fighting Simulator",
+	Icon = "https://tr.rbxcdn.com/d3abca00012f832f2e347784fd2f1a65/420/420/Decal/Png",
 	PremiumOnly = false
 })
 
