@@ -35,7 +35,7 @@ Name = <string> - The name of the section.
 ]]
 
 Tab:AddButton({
-	Name = "Execute",
+	Name = "Expanded Attack Range",
 	Callback = function()
 			
       		_G.HeadSize = 999
