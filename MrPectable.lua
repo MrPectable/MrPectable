@@ -65,10 +65,26 @@ print('MrPectable active..')
 Name = <string> - The name of the button.
 Callback = <function> - The function of the button.
 ]]
-local Window = OrionLib:MakeWindow({Name = "PSX", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+local Tab = Window:MakeTab({
+	Name = "PSX",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
 
-local Window = OrionLib:MakeWindow({Name = "Arsenal", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+local Tab = Window:MakeTab({
+	Name = "Doors",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
 
-local Window = OrionLib:MakeWindow({Name = "BloxFruits", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+local Tab = Window:MakeTab({
+	Name = "Bloxfruits",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
 
-local Window = OrionLib:MakeWindow({Name = "Doors", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+local Tab = Window:MakeTab({
+	Name = "Arsenal",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
