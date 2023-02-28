@@ -1,28 +1,30 @@
 local Flux = loadstring(game:HttpGet"https://raw.githubusercontent.com/dawid-scripts/UI-Libs/main/fluxlib.txt")()
 
-local win = Flux:Window("PREVIEW", "Baseplate", Color3.fromRGB(255, 110, 48), Enum.KeyCode.LeftControl)
-local tab = win:Tab("Tab 1", "http://www.roblox.com/asset/?id=6023426915")
-tab:Button("Kill all", "This function may not work sometimes and you can get banned.", function()
-Flux:Notification("Killed all players successfully!", "Alright")
+local win = Flux:Window("MrHUB", "Created By MrPectable|UI by Dawid|Flux", Color3.fromRGB(255, 110, 48), Enum.KeyCode.LeftControl)
+
+local tab = win:Tab("Main User", "http://www.roblox.com/asset/?id=12637998477")
+tab:Button("Expaned Range", "This function may Lag a Bit.", function()
+Flux:Notification("Your Range Has Been Expanded!", "Only Execute this Once or Rejoin!")
+    _G.HeadSize = 999
+_G.Disabled = true
+ 
+game:GetService('RunService').RenderStepped:connect(function()
+if _G.Disabled then
+for i,v in next, game:GetService('Players'):GetPlayers() do
+if v.Name ~= game:GetService('Players').LocalPlayer.Name then
+pcall(function()
+v.Character.HumanoidRootPart.Size = Vector3.new(_G.HeadSize,_G.HeadSize,_G.HeadSize)
+v.Character.HumanoidRootPart.Transparency = 100
+v.Character.HumanoidRootPart.BrickColor = BrickColor.new("Really White")
+v.Character.HumanoidRootPart.Material = "Glass"
+v.Character.HumanoidRootPart.CanCollide = false
 end)
-tab:Label("This is just a label.")
-tab:Line()
-tab:Toggle("Auto-Farm Coins", "Automatically collects coins for you!", function(t)
-print(t)
+end
+end
+end
 end)
-tab:Slider("Walkspeed", "Makes your faster.", 0, 100,16,function(t)
-print(t)
+
+print('MrPectable active..')
 end)
-tab:Dropdown("Part to aim at", {"Torso","Head","Penis"}, function(t)
-print(t)
-end)
-tab:Colorpicker("ESP Color", Color3.fromRGB(255,1,1), function(t)
-print(t)
-end)
-tab:Textbox("Gun Power", "This textbox changes your gun power, so you can kill everyone faster and easier.", true, function(t)
-print(t)
-end)
-tab:Bind("Kill Bind", Enum.KeyCode.Q, function()
-print("Killed a random person!")
-end)
-win:Tab("Tab 2", "http://www.roblox.com/asset/?id=6022668888")
+
+
