@@ -74,6 +74,12 @@ local Tab = Window:MakeTab({
 local Section = Tab:AddSection({
 	Name = "Pet Simulator X"
 })
+Tab:AddButton({
+	Name = "Button!",
+	Callback = function()
+      		print("button pressed")
+  	end    
+})
 
 
 local Tab = Window:MakeTab({
@@ -85,7 +91,12 @@ local Tab = Window:MakeTab({
 local Section = Tab:AddSection({
 	Name = "Doors"
 })
-
+Tab:AddButton({
+	Name = "Button!",
+	Callback = function()
+      		print("button pressed")
+  	end    
+})
 
 local Tab = Window:MakeTab({
 	Name = "Bloxfruits",
@@ -96,7 +107,12 @@ local Tab = Window:MakeTab({
 local Section = Tab:AddSection({
 	Name = "Bloxfruits"
 })
-
+Tab:AddButton({
+	Name = "Button!",
+	Callback = function()
+      		print("button pressed")
+  	end    
+})
 
 local Tab = Window:MakeTab({
 	Name = "Arsenal",
@@ -107,7 +123,12 @@ local Tab = Window:MakeTab({
 local Section = Tab:AddSection({
 	Name = "Arsenal"
 })
-
+Tab:AddButton({
+	Name = "Button!",
+	Callback = function()
+      		print("button pressed")
+  	end    
+})
 local Tab = Window:MakeTab({
 	Name = "AFS",
 	Icon = "rbxassetid://4483345998",
@@ -116,4 +137,10 @@ local Tab = Window:MakeTab({
 
 local Section = Tab:AddSection({
 	Name = "Anime Fighting Simulator"
+})
+Tab:AddButton({
+	Name = "Button!",
+	Callback = function()
+      		print("button pressed")
+  	end    
 })
