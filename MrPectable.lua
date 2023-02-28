@@ -15,8 +15,8 @@ CloseCallback = <function> - Function to execute when the window is closed.
 ]]
 
 local Tab = Window:MakeTab({
-	Name = "🎩 Player Misc",
-	Icon = "rbxassetid://12215417746",
+	Name = "Player Misc",
+	Icon = "🎩",
 	PremiumOnly = false
 })
 
