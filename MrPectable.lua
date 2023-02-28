@@ -1,6 +1,6 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 
-local Window = OrionLib:MakeWindow({Name = "MrPectable Hub", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+local Window = OrionLib:MakeWindow({Name = "MrPectable Hub", HidePremium = false, SaveConfig = true, ConfigFolder = "MrPectable Hub"})
 
 --[[
 Name = <string> - The name of the UI.
@@ -35,7 +35,7 @@ Name = <string> - The name of the section.
 ]]
 
 OrionLib:MakeNotification({
-	Name = "Title!",
+	Name = "AFS",
 	Content = "Notification content... what will it say??",
 	Image = "rbxassetid://4483345998",
 	Time = 5
