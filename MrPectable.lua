@@ -181,7 +181,43 @@ end
 local btns = serv:Channel("Evade")
 
 local btns = serv:Channel("Dahood")
-
+btns:Button(
+"Enclosed GUI",
+function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/dylannpro123/enclosed/main/enclosed'))()
+DiscordLib:Notification("Notification", "Executed !", "Okay!")
+end
+)
+btns:Button(
+"Swagmode GUI",
+function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002"))()
+DiscordLib:Notification("Notification", "Executed !", "Okay!")
+end
+)
+btns:Button(
+"Dahub",
+function()
+getgenv().Toggle = "v"
+getgenv().Intro = false
+loadstring(game:HttpGet("https://raw.githubusercontent.com/NoUGotbannedlol/DaHubV3/main/Launch"))()
+DiscordLib:Notification("Notification", "Toggle With V !", "Okay!")
+end
+)
+btns:Button(
+"DaHScript",
+function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/rblxscriptsnet/rblxhub/main/rblxhub.lua"))()
+DiscordLib:Notification("Notification", " Executed !", "Okay!")
+end
+)
+btns:Button(
+"Vortex",
+function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ImagineProUser/vortexdahood/main/vortex", true))()
+DiscordLib:Notification("Notification", " Executed !", "Okay!")
+end
+)
 local btns = serv:Channel("Bloxfruits")
 btns:Button(
 "Tuper Hub",
