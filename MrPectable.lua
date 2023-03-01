@@ -558,9 +558,11 @@ lbls:Label("Credits & INFO")
 lbls:Label("Creator-MrPectable#2662")
 lbls:Label("Helper-‘a#7585")
 lbls:Label("Helper-Deity#1001")
+lbls:Label("If a Script Doesnt Work or Open Upon Execution = Patched and Will Be Removed Soon From MrHub")
+lbls:Label("Feel Free to DM MrPectable#2662 On Discord For Questions or Help")
 
 
 local lbls = serv:Channel("Change Logs")
-lbls:Label("Fixed Bugs & Added 25 New Scripts March 1st 2023")
+lbls:Label("Fixed Bugs & Added 25 New Scripts |March 1st 2023")
 
 win:Server("Main", "http://www.roblox.com/asset/?id=6031075938")
