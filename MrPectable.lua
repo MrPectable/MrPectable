@@ -65,5 +65,18 @@ print('MrPectable active..')
 	end,
 })
 
+local Tab = Window:CreateTab("PSX", 4483362458) -- Title, Image
+
+local Tab = Window:CreateTab("AFS", 4483362458) -- Title, Image
+
+local Tab = Window:CreateTab("Arsenal", 4483362458) -- Title, Image
+
+local Tab = Window:CreateTab("BloxFruits", 4483362458) -- Title, Image
+
+local Tab = Window:CreateTab("Doors", 4483362458) -- Title, Image
+
+local Tab = Window:CreateTab("Dahood", 4483362458) -- Title, Image
+
+local Tab = Window:CreateTab("More Soon", 4483362458) -- Title, Image
 
 Rayfield:LoadConfiguration()
