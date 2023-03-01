@@ -1,6 +1,6 @@
 local DiscordLib = loadstring(game:HttpGet "https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/discord")()
 
-local win = DiscordLib:Window("discord library")
+local win = DiscordLib:Window("Discord library")
 
 local serv = win:Server("MrHub", "")
 
@@ -34,6 +34,21 @@ print('MrPectable active..')
 )
 
 local btns = serv:Channel("PSX")
+
+local btns = serv:Channel("AFS")
+
+local btns = serv:Channel("YBN")
+
+local btns = serv:Channel("Doors")
+
+local btns = serv:Channel("Evade")
+
+local btns = serv:Channel("Dahood")
+
+local btns = serv:Channel("Bloxfruits")
+
+local btns = serv:Channel("More Soon")
+
 
 serv:Channel("MrPectable#2662")
 
