@@ -41,14 +41,14 @@ local btns = serv:Channel("YBN")
 
 local btns = serv:Channel("MM2")
 btns:Button(
-    "kidachi VPC",
+    "kidachi Version PC",
     function()
  loadstring(game:HttpGet('https://kidachi.xyz/Script', true))()
         DiscordLib:Notification("Notification", "MM2 Script Executed (PC)!", "Credits Deity#1001!")
     end
    )
 btns:Button(
-"kidachi VM",
+"kidachi Version Mobile",
     function()
  loadstring(game:HttpGet('https://kidachi.xyz/Script', true))()
         DiscordLib:Notification("Notification", "MM2 Script Executed (Mobile)!", "Credits Deity#1001!")
@@ -64,7 +64,13 @@ local btns = serv:Channel("Dahood")
 local btns = serv:Channel("Bloxfruits")
 
 local btns = serv:Channel("Odyssey")
-
+btns:Button(
+    "kidachi ",
+    function()
+ loadstring(game:HttpGet('https://kidachi.xyz/Odyssey', true))()
+        DiscordLib:Notification("Notification", "Odyssey Script Executed (PC)!", "Credits Deity#1001!")
+    end
+   )
 local btns = serv:Channel("More Soon")
 
 
