@@ -8,7 +8,7 @@ local Win = Lib:CreateWindow("MrPectable",1,nil,nil)
 for i = 1, 1 do
 
 --Create Tab
-local Tab,name = Win:CreateTab("MrPectable"..tostring(i),function() warn(i) end)
+local Tab,name = Win:CreateTab("MrPectable|"..tostring(i),function() warn(i) end)
 
 Tab:CreateButton("Infinite yield",function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source",true))()
