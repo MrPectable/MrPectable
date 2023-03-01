@@ -586,9 +586,7 @@ DiscordLib:Notification("Notification", "Executed !", "Okay!")
 end
 )
 
-
 local btns = serv:Channel("Flee The Facility")
-
 btns:Button(
 "ArticHub",
 function()
@@ -636,6 +634,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/HonestlyDex/DexHub/ma
 DiscordLib:Notification("Notification", "Executed !", "Okay!")
 end
 )
+  
 local btns = serv:Channel("More Soon")
 local lbls = serv:Channel("Credits")
 
