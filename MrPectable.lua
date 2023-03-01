@@ -30,5 +30,12 @@ local Tab = Window:CreateTab("Main",12441122943) -- Title, Image
 
 
 local Section = Tab:CreateSection("Section")
+local Button = Tab:CreateButton({
+	Name = "Destroy GUI",
+	Callback = function()
+		-- The function that takes place when the button is pressed
+			Rayfield:Destroy()
+	end,
+})
 
 Rayfield:LoadConfiguration()
