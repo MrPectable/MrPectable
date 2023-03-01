@@ -39,6 +39,22 @@ local btns = serv:Channel("AFS")
 
 local btns = serv:Channel("YBN")
 
+local btns = serv:Channel("MM2")
+btns:Button(
+    "Hydrogen VPC",
+    function()
+ loadstring(game:HttpGet('https://kidachi.xyz/Script', true))()
+        DiscordLib:Notification("Notification", "MM2 Script Executed (PC)!", "Okay!")
+    end
+   )
+btns:Button(
+"Hydrogen VM",
+    function()
+ loadstring(game:HttpGet('https://kidachi.xyz/Script', true))()
+        DiscordLib:Notification("Notification", "MM2 Script Executed (Mobile)!", "Okay!")
+    end
+   )
+
 local btns = serv:Channel("Doors")
 
 local btns = serv:Channel("Evade")
@@ -46,6 +62,8 @@ local btns = serv:Channel("Evade")
 local btns = serv:Channel("Dahood")
 
 local btns = serv:Channel("Bloxfruits")
+
+local btns = serv:Channel("Odyssey")
 
 local btns = serv:Channel("More Soon")
 
