@@ -555,6 +555,8 @@ local btns = serv:Channel("More Soon")
 local lbls = serv:Channel("Credits")
 
 lbls:Label("Credits & INFO")
+lbls:Label("Helper-‘a#7585)
+lbls:Label("Helper-Deity#1001")
 
 serv:Channel("MrPectable#2662")
 
