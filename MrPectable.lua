@@ -181,13 +181,7 @@ end
 local btns = serv:Channel("Evade")
 
 local btns = serv:Channel("Dahood")
-btns:Button(
-"Enclosed GUI",
-function()
-loadstring(game:HttpGet('https://raw.githubusercontent.com/dylannpro123/enclosed/main/enclosed'))()
-DiscordLib:Notification("Notification", "Executed !", "Okay!")
-end
-)
+
 btns:Button(
 "Swagmode GUI",
 function()
