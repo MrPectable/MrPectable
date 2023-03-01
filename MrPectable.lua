@@ -7,7 +7,7 @@ local serv = win:Server("MrHub", "")
 local btns = serv:Channel("User Main")
 
 btns:Button(
-"Infinite Yeild",
+"Infinite Yield FE",
     function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
         DiscordLib:Notification("Notification", "Admin Script Executed !", "Okay!")
