@@ -65,7 +65,7 @@ local btns = serv:Channel("Bloxfruits")
 
 local btns = serv:Channel("Odyssey")
 btns:Button(
-    "kidachi ",
+    "kidachi Odyssey",
     function()
  loadstring(game:HttpGet('https://kidachi.xyz/Odyssey', true))()
         DiscordLib:Notification("Notification", "Odyssey Script Executed (PC)!", "Credits Deity#1001!")
