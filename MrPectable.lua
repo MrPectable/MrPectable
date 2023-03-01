@@ -154,6 +154,96 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/StringV2/StringHub/ma
         DiscordLib:Notification("Notification", "String X Executed !", "Okay!")
     end
    )
+"Blaze X",
+    function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/WindowsXp12/BlxzeRBLX/main/BLxzeHub.lua"))()
+        DiscordLib:Notification("Notification", "Blaze X Executed !", "Okay!")
+    end
+   )
+"2x",
+    function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/NeaPchX2/2XHUB-UPDBIG/main/README.md', true))()
+        DiscordLib:Notification("Notification", "2x Executed !", "Okay!")
+    end
+   )
+"Sxnumbz Hub",
+    function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/sxnumz/Script/main/SxnumzHubFree.txt'))();
+        DiscordLib:Notification("Notification", "Executed !", "Okay!")
+    end
+   )
+"MrMaxNaja",
+    function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/MrMaxNaJaEz/New-MrMaxNaJa-NaJa/main/README.md"))()
+        DiscordLib:Notification("Notification", "Executed !", "Okay!")
+    end
+   )
+"East Hub",
+    function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Brineeee/EastHub/main/lua"))()
+        DiscordLib:Notification("Notification", "East Hub Executed !", "Okay!")
+    end
+   )
+"Chiba",
+    function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/KindIhave/ChibaHuB/main/Chiba-BF.txt'))()
+        DiscordLib:Notification("Notification", "Chiba Executed !", "Okay!")
+    end
+   )
+"One X Hub",
+    function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/xOne2/One-x-HUB/main/README.md"))()
+        DiscordLib:Notification("Notification", "Executed !", "Okay!")
+    end
+   )
+"Zen Hub",
+    function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Kaizenofficiall/ZenHub/main/BloxFruit", true))()
+        DiscordLib:Notification("Notification", "Zen Hub Executed !", "Okay!")
+    end
+   )
+"Putaya Hub",
+    function()
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/Putaya/HITBOXKAK/main/PutayaFree"), true))();
+        DiscordLib:Notification("Notification", "Executed !", "Okay!")
+    end
+   )
+"Evil Hub",
+    function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Natthawat69/EvilHub-FREE/main/Script.lua"))()
+        DiscordLib:Notification("Notification", "Evil Hub Executed !", "Okay!")
+    end
+   )
+"Project Meow",
+    function()
+loadstring(game:HttpGet"https://rawscripts.net/raw/Project-Meow_421")()
+        DiscordLib:Notification("Notification", "Project Meow Executed !", "Okay!")
+    end
+   )
+"Master Hub",
+    function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/destylol/masterhubv311/itachi/Main.lua"))()
+        DiscordLib:Notification("Notification", "Master Hub Executed !", "Okay!")
+    end
+   )
+"Owu Hub",
+    function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/slightten/ouwHub/main/ouwHub'))()
+        DiscordLib:Notification("Notification", "Owu Hub Executed !", "Okay!")
+    end
+   )
+"SMZ Hub",
+    function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Frerfgzz/free-script/main/SMZHUBv2BETA"))()
+        DiscordLib:Notification("Notification", "SMZ Executed !", "Okay!")
+    end
+   )
+"CattusWare",
+    function()
+loadstring(game:HttpGet'https://raw.githubusercontent.com/ao-0/djd/main/astro_hub.lua')()
+        DiscordLib:Notification("Notification", "Executed !", "Okay!")
+    end
+   )
 
 
 local btns = serv:Channel("Odyssey")
