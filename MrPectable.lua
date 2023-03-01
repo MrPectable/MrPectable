@@ -48,6 +48,85 @@ DiscordLib:Notification("Notification", "GUI CLOSED!", "Okay!")
 end
 )
 local btns = serv:Channel("PSX")
+btns:Button(
+"SAZA",
+function()
+ loadstring(game:HttpGet"https://raw.githubusercontent.com/KuppaHX/Saza/main/SazaLoader.lua")()
+DiscordLib:Notification("Notification", "SAZA Executed !", "Okay!")
+end
+)
+btns:Button(
+"Mokuro Hub",
+function()
+loadstring(game:HttpGet"https://raw.githubusercontent.com/xDepressionx/Free-Script/main/AllScript.lua")()
+DiscordLib:Notification("Notification", "Mokuro Hub Executed !", "Okay!")
+end
+)
+btns:Button(
+"DHX GUI",
+function()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/si1nnx/psxx/main/g"))()
+DiscordLib:Notification("Notification", "DHX GUI Executed !", "Okay!")
+end
+)
+btns:Button(
+"Something Hub",
+function()
+ loadstring(game:HttpGetAsync("https://somethinghub.xyz/script.lua", true))()
+-- KEY LINK: https://somethinghub.xyz/getkey.html
+
+DiscordLib:Notification("Notification", "Something Was Executed !", "Okay!")
+end
+)
+btns:Button(
+"Shiny Tool",
+function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/XLinestX/Shiny-Tool/main/ShinyTool.lua"))()
+DiscordLib:Notification("Notification", "Shiny Tool Executed !", "Okay!")
+end
+)
+btns:Button(
+"Emerald Hub",
+function()
+loadstring(game:HttpGet'https://raw.githubusercontent.com/Sxdness0001/emerald-pet-sim/main/petsim')();
+DiscordLib:Notification("Notification", "Emerald Hub Executed !", "Okay!")
+end
+)
+btns:Button(
+"V.G Hub",
+function()
+ loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+DiscordLib:Notification("Notification", "V.G Hub Executed !", "Okay!")
+end
+)
+btns:Button(
+"Petsi-X",
+function()
+loadstring(game:GetObjects("rbxassetid://8194485654")[1].Source)("Petsi-X")
+DiscordLib:Notification("Notification", "Petsi-X Executed !", "Okay!")
+end
+)
+btns:Button(
+"Uranium Hub",
+function()
+loadstring(game:HttpGet("https://uraniumhub.tk/storage/script.lua", true))()
+DiscordLib:Notification("Notification", "Uranium Hub Executed !", "Okay!")
+end
+)
+btns:Button(
+"Maxx Hub",
+function()
+loadstring(game:HttpGet(("https://aizen.ml/uploads/petsimx.txt")))()
+DiscordLib:Notification("Notification", "Maxx Hub Executed !", "Okay!")
+end
+)
+btns:Button(
+"Floppa Hub",
+function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Schervi/FloppaHub/main/FloppaHubMain.lua"))()
+DiscordLib:Notification("Notification", "Floppa Hub Executed !", "Okay!")
+end
+)
 
 local btns = serv:Channel("AFS")
 btns:Button(
