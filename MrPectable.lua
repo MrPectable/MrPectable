@@ -1,6 +1,6 @@
 local DiscordLib = loadstring(game:HttpGet "https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/discord")()
 
-local win = DiscordLib:Window("Discord library")
+local win = DiscordLib:Window("Discord library|Beta")
 
 local serv = win:Server("MrHub", "")
 
