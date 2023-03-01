@@ -1,6 +1,6 @@
-local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/Rayfield/main/source'))()
+local Lib = loadstring(game:HttpGet("https://raw.githubusercontent.com/Hosvile/Refinement/main/InfinitiveUI",true))()
        
-	KeySystem = true, -- Set this to true to use our key system
+	KeySystem = true, 
 	KeySettings = {
 		Title = "MrHub",
 		Subtitle = "Key System",
@@ -10,7 +10,7 @@ local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/shle
 		GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
 		Key = "MrPectable"
 	}
-		local Lib = loadstring(game:HttpGet("https://raw.githubusercontent.com/Hosvile/Refinement/main/InfinitiveUI",true))()
+		
 })
 
 
