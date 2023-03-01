@@ -1,9 +1,27 @@
-local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/juywvm/ui-libs/main/Valiant_UI_Lib/source.lua"))()
+local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/Rayfield/main/source'))()
 
-local Window = Library:CreateWindow(<string>, MrPectable, <string>, BETA, <string>, 6071020689)
-
-local Tab = Window:CreateTab(<string> Main Area)
-
-local Page = Tab:CreateFrame(<string> Player)
-
-local Page = Tab:CreateFrame(<string> Scripts)
+local Window = Rayfield:CreateWindow({
+	Name = "Rayfield Example Window",
+	LoadingTitle = "Rayfield Interface Suite",
+	LoadingSubtitle = "by MrPectable",
+	ConfigurationSaving = {
+		Enabled = true,
+		FolderName = nil, -- Create a custom folder for your hub/game
+		FileName = "Mr Hub"
+	},
+        Discord = {
+        	Enabled = false,
+        	Invite = "https://discord.gg/f6QWTHeEkd", -- The Discord invite code, do not include discord.gg/
+        	RememberJoins = true -- Set this to false to make them join the discord every time they load it up
+        },
+	KeySystem = true, -- Set this to true to use our key system
+	KeySettings = {
+		Title = "MrHub",
+		Subtitle = "Key System",
+		Note = "Join the discord (https://discord.gg/f6QWTHeEkd)",
+		FileName = "MrKey",
+		SaveKey = true,
+		GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
+		Key = "MrPectable"
+	}
+})
