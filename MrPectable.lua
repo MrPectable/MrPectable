@@ -41,17 +41,17 @@ local btns = serv:Channel("YBN")
 
 local btns = serv:Channel("MM2")
 btns:Button(
-    "Hydrogen VPC",
+    "kidachi VPC",
     function()
  loadstring(game:HttpGet('https://kidachi.xyz/Script', true))()
-        DiscordLib:Notification("Notification", "MM2 Script Executed (PC)!", "Okay!")
+        DiscordLib:Notification("Notification", "MM2 Script Executed (PC)!", "Credits Deity#1001!")
     end
    )
 btns:Button(
-"Hydrogen VM",
+"kidachi VM",
     function()
  loadstring(game:HttpGet('https://kidachi.xyz/Script', true))()
-        DiscordLib:Notification("Notification", "MM2 Script Executed (Mobile)!", "Okay!")
+        DiscordLib:Notification("Notification", "MM2 Script Executed (Mobile)!", "Credits Deity#1001!")
     end
    )
 
