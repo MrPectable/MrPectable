@@ -549,7 +549,8 @@ local btns = serv:Channel("Bloxburg")
 btns:Button(
 "Illusion",
 function()
-local http_request = http_request or request or (syn and syn.request) or (http and http.request) loadstring(http_request({Url="https://projectillusion.dev/beta/illusion/script.lua",Method="GET"}).Body)()
+local http_request = http_request or request or (syn and syn.request) or (http and http.request) 
+loadstring(http_request({Url="https://projectillusion.dev/beta/illusion/script.lua",Method="GET"}).Body)()
 DiscordLib:Notification("Notification", "Executed !", "Okay!")
 end
 )
@@ -568,16 +569,57 @@ DiscordLib:Notification("Notification", "Executed !", "Okay!")
 end
 )
 local btns = serv:Channel("BrookHaven")
+btns:Button(
+"IceHub",
+function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMael7/NewIceHub/main/Brookhaven"))()
+DiscordLib:Notification("Notification", "Executed !", "Okay!")
+end
+)
 
 local btns = serv:Channel("Adopt Me")
+btns:Button(
+"AntarticHub",
+function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/JusticeValley/Antarctic-Hub/main/New.lua", true))()
+DiscordLib:Notification("Notification", "Executed !", "Okay!")
+end
+)
+
 
 local btns = serv:Channel("Flee The Facility")
 
+btns:Button(
+"ArticHub",
+function()
+loadstring(game:HttpGetAsync("https://polar7.wtf/Arctic/ArcticHub/Loader.txt"))()
+DiscordLib:Notification("Notification", "Executed !", "Okay!")
+end
+)
+btns:Button(
+"Khoa",
+function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/khoaScript/scripts/master/flee-the-facility.lua"))() 
+DiscordLib:Notification("Notification", "Executed !", "Okay!")
+end
+)
 local btns = serv:Channel("Build a Boat FT")
+
+btns:Button(
+"XRollu",
+function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/XRoLLu/UWU/main/BUILD%20A%20BOAT%20FOR%20TREASURE.lua'))()
+DiscordLib:Notification("Notification", "Executed !", "Okay!")
+end
+)
 
 local btns = serv:Channel("JailBreak")
 
+
+
 local btns = serv:Channel("Prison Life")
+
+
 
 local btns = serv:Channel("More Soon")
 local lbls = serv:Channel("Credits")
