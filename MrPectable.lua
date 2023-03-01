@@ -35,6 +35,6 @@ print('MrPectable active..')
 
 local btns = serv:Channel("PSX")
 
-serv:Channel("Creator|MrPectable#2662")
+serv:Channel("MrPectable#2662")
 
 win:Server("Main", "http://www.roblox.com/asset/?id=6031075938")
