@@ -537,8 +537,21 @@ loadstring(game:HttpGet('https://kidachi.xyz/Odyssey', true))()
 DiscordLib:Notification("Notification", "Odyssey Script Executed (PC)!", "Credits Deity#1001!")
 end
 )
-local btns = serv:Channel("More Soon")
+local btns = serv:Channel("Bloxburg")
 
+local btns = serv:Channel("BrookHaven")
+
+local btns = serv:Channel("Adopt Me")
+
+local btns = serv:Channel("Flee The Facility")
+
+local btns = serv:Channel("Build a Boat FT")
+
+local btns = serv:Channel("JailBreak")
+
+local btns = serv:Channel("Prison Life")
+
+local btns = serv:Channel("More Soon")
 
 serv:Channel("MrPectable#2662")
 
