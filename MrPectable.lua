@@ -1,8 +1,8 @@
 local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/Rayfield/main/source'))()
 
 local Window = Rayfield:CreateWindow({
-	Name = "Rayfield Example Window",
-	LoadingTitle = "Rayfield Interface Suite",
+	Name = "MrHub Window",
+	LoadingTitle = "MrHub Universial",
 	LoadingSubtitle = "by MrPectable",
 	ConfigurationSaving = {
 		Enabled = true,
