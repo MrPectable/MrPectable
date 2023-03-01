@@ -556,6 +556,8 @@ local lbls = serv:Channel("Credits & Info")
 
 lbls:Label("Owner|Creator- MrPectable")
 
+lbls:Label("Helper- Deity#1001")
+lbls:Label("Helper- ‘a#7585")
 
 
 
