@@ -1,9 +1,8 @@
-local DiscordLib =
-    loadstring(game:HttpGet "https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/discord")()
+local DiscordLib = loadstring(game:HttpGet "https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/discord")()
 
 local win = DiscordLib:Window("discord library")
 
-local serv = win:Server("Preview", "")
+local serv = win:Server("MrHub", "")
 
 local btns = serv:Channel("User Main")
 
