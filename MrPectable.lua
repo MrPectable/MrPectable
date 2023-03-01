@@ -555,6 +555,8 @@ local btns = serv:Channel("More Soon")
 
 serv:Channel("MrPectable#2662")
 
-Credits
+lbls:Label("This is just a label.")
+
+
 
 win:Server("Main", "http://www.roblox.com/asset/?id=6031075938")
