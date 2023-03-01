@@ -104,6 +104,57 @@ local btns = serv:Channel("Evade")
 local btns = serv:Channel("Dahood")
 
 local btns = serv:Channel("Bloxfruits")
+btns:Button(
+"Tuper Hub",
+    function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/TUPERX/TUPERX/Main/MenuBF/README.md'))()
+        DiscordLib:Notification("Notification", "Tuper Hub Executed !", "Okay!")
+    end
+   )
+btns:Button(
+"Ripper",
+    function()
+_G.Color = Color3.fromRGB(52, 190, 255)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/hajibeza/RIPPER-HUB/main/NEWBF.lua"))()
+        DiscordLib:Notification("Notification", "Ripper Script Executed !", "Okay!")
+    end
+   )
+btns:Button(
+"HoHo Hub",
+    function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
+        DiscordLib:Notification("Notification", "HoHo Hub Executed !", "Okay!")
+    end
+   )
+btns:Button(
+"Playback X Hub",
+    function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/NeaPchX2/Playback-X-HUB/main/Protected.lua.txt"))()
+        DiscordLib:Notification("Notification", "Playback X Hub Executed !", "Okay!")
+    end
+   )
+btns:Button(
+"Fusion Hub",
+    function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/SHAREHACK/script/main/fusion1'))()
+        DiscordLib:Notification("Notification", "Fusion Hub Executed !", "Okay!")
+    end
+   )
+btns:Button(
+"Master X Hub",
+    function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/BlodyXHub/Xeniel_All/main/ForAll"))()
+        DiscordLib:Notification("Notification", "Master X Hub Executed !", "Okay!")
+    end
+   )
+btns:Button(
+"String X",
+    function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/StringV2/StringHub/main/BF.txt", true))()
+        DiscordLib:Notification("Notification", "String X Executed !", "Okay!")
+    end
+   )
+
 
 local btns = serv:Channel("Odyssey")
 btns:Button(
