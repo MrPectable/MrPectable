@@ -26,7 +26,7 @@ local Window = Rayfield:CreateWindow({
 	}
 })
 
-local Tab = Window:CreateTab("Main",10218442298) -- Title, Image
+local Tab = Window:CreateTab("Main",) -- Title, Image
 
 
 local Section = Tab:CreateSection("Section")
