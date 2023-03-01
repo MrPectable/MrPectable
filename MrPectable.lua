@@ -552,17 +552,13 @@ local btns = serv:Channel("JailBreak")
 local btns = serv:Channel("Prison Life")
 
 local btns = serv:Channel("More Soon")
-local lbls = serv:Channel("Labels")
+local lbls = serv:Channel("Credits & Info")
 
-lbls:Label("This is just a label.")
+lbls:Label("Owner|Creator- MrPectable")
 
-local bnds = serv:Channel("Binds")
 
-bnds:Bind(
-    "Kill bind",
-    Enum.KeyCode.RightShift,
-    function()
-        print("Killed everyone!")
+
+
     end
 )
 
