@@ -32,7 +32,13 @@ print('MrPectable active..')
         DiscordLib:Notification("Notification", "Your Range Has Been Expanded!", "Enjoy!")
     end
 )
-
+btns:Button(
+    "Destroy UI",
+    function()
+DiscordLib:Destroy()
+        DiscordLib:Notification("Notification", "GUI CLOSED!", "Okay!")
+    end
+   )
 local btns = serv:Channel("PSX")
 
 local btns = serv:Channel("AFS")
