@@ -23,6 +23,10 @@ end
 end
 end
 end)
+        tab:Line()
+        tab:Slider("Walkspeed", "Makes you faster.", 0, 100,16,function(t)
+print(t)
+end)
 
 print('MrPectable active..')
 end)
