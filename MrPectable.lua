@@ -619,7 +619,13 @@ local btns = serv:Channel("JailBreak")
 
 local btns = serv:Channel("Prison Life")
 
-
+btns:Button(
+"Admin GUI",
+function()
+loadstring(game:HttpGet('https://pastebin.com/raw/iZ64yzjE%27))()
+DiscordLib:Notification("Notification", "Executed !", "Okay!")
+end
+)
 
 local btns = serv:Channel("Arsenal")
 
