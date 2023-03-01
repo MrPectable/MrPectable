@@ -6,6 +6,13 @@ local serv = win:Server("MrHub", "")
 
 local btns = serv:Channel("User Main")
 
+"Infinite Yeild",
+    function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+        DiscordLib:Notification("Notification", "Admin Script Executed !", "Okay!")
+    end
+   )
+
 btns:Button(
     "Expanded Range",
     function()
@@ -42,6 +49,14 @@ DiscordLib:Destroy()
 local btns = serv:Channel("PSX")
 
 local btns = serv:Channel("AFS")
+local btns = serv:Channel("Odyssey")
+btns:Button(
+    "INF YEN & CHAKRA",
+    function()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/scriptpastebin/raw/main/animefightingsimulator"))()
+        DiscordLib:Notification("Notification", "INF YEN & CHAKRA Executed For Best OutCome Join a Dungeon!", "Okay!")
+    end
+   )
 
 local btns = serv:Channel("YBN")
 
