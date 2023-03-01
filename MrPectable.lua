@@ -3,11 +3,19 @@ local Lib = loadstring(game:HttpGet("https://raw.githubusercontent.com/Hosvile/R
 
 --Create Window
 --Lib:CreateWindow(name,DefTab,WinSize,function)
-local Win = Lib:CreateWindow("MrPectable",nil,nil)
+local Win = Lib:CreateWindow("MrPectable",1,nil,nil)
 
-
+for i = 1, 16 do
 
 --Create Tab
-local Tab,name = Win:CreateTab(""..tostring(i),function() warn(i) end)
+local Tab,name = Win:CreateTab("MrPectable"..tostring(i),function() warn(i) end)
+
+Tab:CreateButton("Infinite yield",function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source",true))()
+	end)
+
+for i = 1, i do
 
 
+end
+end
