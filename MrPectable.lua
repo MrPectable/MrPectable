@@ -26,7 +26,7 @@ local Window = Rayfield:CreateWindow({
 	}
 })
 
-local Tab = Window:CreateTab("Main",) -- Title, Image
+local Tab = Window:CreateTab("Main") -- Title, Image
 
 
 local Section = Tab:CreateSection("Section")
@@ -37,5 +37,33 @@ local Button = Tab:CreateButton({
 			Rayfield:Destroy()
 	end,
 })
+
+local Button = Tab:CreateButton({
+	Name = "Expanded HitBox",
+	Callback = function()
+		-- The function that takes place when the button is pressed
+			_G.HeadSize = 999
+_G.Disabled = true
+ 
+game:GetService('RunService').RenderStepped:connect(function()
+if _G.Disabled then
+for i,v in next, game:GetService('Players'):GetPlayers() do
+if v.Name ~= game:GetService('Players').LocalPlayer.Name then
+pcall(function()
+v.Character.HumanoidRootPart.Size = Vector3.new(_G.HeadSize,_G.HeadSize,_G.HeadSize)
+v.Character.HumanoidRootPart.Transparency = 100
+v.Character.HumanoidRootPart.BrickColor = BrickColor.new("Really White")
+v.Character.HumanoidRootPart.Material = "Glass"
+v.Character.HumanoidRootPart.CanCollide = false
+end)
+end
+end
+end
+end)
+
+print('MrPectable active..')
+	end,
+})
+
 
 Rayfield:LoadConfiguration()
