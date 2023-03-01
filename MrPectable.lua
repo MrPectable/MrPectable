@@ -9,12 +9,12 @@ local btns = serv:Channel("User Main")
 btns:Button(
     "Expanded Range",
     function()
-        DiscordLib:Notification("Notification", "Killed everyone!", "Okay!")
+        DiscordLib:Notification("Notification", "Your Range Has Been Expanded!", "Enjoy!")
     end
 )
 
 local btns = serv:Channel("PSX")
 
-serv:Channel("Created By MrPectable#2662")
+serv:Channel("Creator|MrPectable#2662")
 
 win:Server("Main", "http://www.roblox.com/asset/?id=6031075938")
