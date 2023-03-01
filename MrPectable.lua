@@ -6,6 +6,7 @@ local serv = win:Server("MrHub", "")
 
 local btns = serv:Channel("User Main")
 
+btns:Button(
 "Infinite Yeild",
     function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
@@ -49,7 +50,6 @@ DiscordLib:Destroy()
 local btns = serv:Channel("PSX")
 
 local btns = serv:Channel("AFS")
-local btns = serv:Channel("Odyssey")
 btns:Button(
     "INF YEN & CHAKRA",
     function()
