@@ -91,6 +91,13 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixiu
         DiscordLib:Notification("Notification", "Vynixius Script Executed !", "Okay!")
     end
    )
+btns:Button(
+"Orion Doors",
+    function()
+loadstring(game:HttpGet("https://pastebin.com/raw/YxeymGde"))()
+        DiscordLib:Notification("Notification", "Orion Has Been Executed !", "Okay!")
+    end
+   )
 
 local btns = serv:Channel("Evade")
 
