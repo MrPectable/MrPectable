@@ -266,6 +266,159 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/ThunderZ-05/HUB/main/
 DiscordLib:Notification("Notification", "Thunder Z Executed !", "Okay!")
 end
 )
+btns:Button(
+"Bonk Hub",
+    function()
+_G.Color = Color3.fromRGB(255,0,0)
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Toonza555/BonkHub/main/Bonkxx.txt'))()
+        DiscordLib:Notification("Notification", "Bonk Hub Executed !", "Okay!")
+    end
+   )
+btns:Button(
+"Ability Hub",
+    function()
+local CustomLoader = loadstring(game:HttpGet("https://raw.githubusercontent.com/Hanabi112/Loading/main/main.lua"))()
+local SET_UP = CustomLoader("Ability Hub | Loading...", "json",{
+   URL = "https://raw.githubusercontent.com/Hanabi112/Ability-Hub-Free-Script/main/Abiliity-Hub.json";
+})
+        DiscordLib:Notification("Notification", "Ability Hub Executed !", "Okay!")
+    end
+   )
+btns:Button(
+"Meta Ware",
+    function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/x2FIWz/SCRIPT/main/MOBILE/METAWARE.lua'))()
+        DiscordLib:Notification("Notification", "Meta Ware Executed !", "Okay!")
+    end
+   )
+btns:Button(
+"Evo X",
+    function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/scriptpastebin/raw/main/2"))()
+        DiscordLib:Notification("Notification", "Evo X Executed !", "Okay!")
+    end
+   )
+btns:Button(
+"Magma Hub",
+    function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/accountnop/magmaisgay/main/magma", true))()
+        DiscordLib:Notification("Notification", "Magma Hub Executed !", "Okay!")
+    end
+   )
+btns:Button(
+"SazX Hub",
+    function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/GooD1020/big-upd/main/README.md"))()
+        DiscordLib:Notification("Notification", "SazX Hub Executed !", "Okay!")
+    end
+   )
+btns:Button(
+"Strike Hub",
+    function()
+getgenv().Color = Color3.fromRGB(0, 128, 255)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/StormSKz12/StirkeHub1/main/Gameincluded"))()
+        DiscordLib:Notification("Notification", "Strike Hub Executed !", "Okay!")
+    end
+   )
+btns:Button(
+"Some X Hub",
+    function()
+loadstring(game:HttpGet("https://pastebin.com/raw/2rmDLJiE"))()
+        DiscordLib:Notification("Notification", "Some X Hub Executed !", "Okay!")
+    end
+   )
+btns:Button(
+"ATR Hub",
+    function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/scriptpastebin/raw/main/ATR",true))()
+        DiscordLib:Notification("Notification", "ATR Hub Executed !", "Okay!")
+    end
+   )
+btns:Button(
+"Miki Hub",
+    function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/NeaPchX2/Miki-HubTH-/main/README.md', true))()
+        DiscordLib:Notification("Notification", "Miki Hub Executed !", "Okay!")
+    end
+   )
+btns:Button(
+"Mukuro/Quartyz",
+    function()
+loadstring(game:HttpGet"https://raw.githubusercontent.com/xQuartyx/DonateMe/main/ScriptLoader")()
+        DiscordLib:Notification("Notification", "Mukuro/Quartyz Executed !", "Okay!")
+    end
+   )
+btns:Button(
+"Whale Hub",
+    function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/x2SPETER/x2SPETER/main/BloxFruits.lua"))()
+        DiscordLib:Notification("Notification", "Whale Hub Executed !", "Okay!")
+    end
+   )
+btns:Button(
+"Maru Hub",
+    function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/joi-droid/MaruHubBF/main/GOHANSSJ3'))()
+        DiscordLib:Notification("Notification", "Maru Hub Executed !", "Okay!")
+    end
+   )
+btns:Button(
+"Shadow Hub",
+    function()
+_G.Script_Modes = "Normal_Wcq"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Shadow-Trash/Loader/main/Loader.lua"))();
+        DiscordLib:Notification("Notification", "Shadow Hub Executed !", "Okay!")
+    end
+   )
+btns:Button(
+"Power Hub",
+    function()
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/natoppo044/modzcaster/main/POWERX.lua"),true))()
+        DiscordLib:Notification("Notification", "Power Hub Executed !", "Okay!")
+    end
+   )
+btns:Button(
+"Netna Hub",
+    function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/NinoGod/NetnaYay/8d21ce23346c500c93bb8b4a71f7791e4058a70b/startload.lua'))()
+        DiscordLib:Notification("Notification", "Netna Hub Executed !", "Okay!")
+    end
+   )
+btns:Button(
+"Black Trap",
+    function()
+loadstring(game:HttpGet("https://pastebin.com/raw/BdvUGb2q"))()
+        DiscordLib:Notification("Notification", "Black Trap Executed !", "Okay!")
+    end
+   )
+btns:Button(
+"Foxy Hub",
+    function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/x2foxy/FoxyHubFreescript/main/Freescript"))()
+        DiscordLib:Notification("Notification", "Foxy Hub Executed !", "Okay!")
+    end
+   )
+btns:Button(
+"Hxllow Hub",
+    function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/1f0yt/community/master/hxllow"))()
+        DiscordLib:Notification("Notification", "Hxllow Hub Executed !", "Okay!")
+    end
+   )
+btns:Button(
+"Mark Hub",
+    function()
+loadstring(game:HttpGet('https://pastebin.com/raw/dhsHESsm'))()
+        DiscordLib:Notification("Notification", "Mark Hub Executed !", "Okay!")
+    end
+   )
+btns:Button(
+"Resin Farm",
+    function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/sasaff94/ResinKaitan/main/README.md"))()
+        DiscordLib:Notification("Notification", "Resin Farm Executed !", "Okay!")
+    end
+   )
 
 local btns = serv:Channel("Odyssey")
 btns:Button(
