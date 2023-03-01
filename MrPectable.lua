@@ -154,7 +154,13 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/StringV2/StringHub/ma
         DiscordLib:Notification("Notification", "String X Executed !", "Okay!")
     end
    )
-
+btns:Button(
+"Thunder Z",
+    function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ThunderZ-05/HUB/main/Simple"))()
+        DiscordLib:Notification("Notification", "Thunder Z Executed !", "Okay!")
+    end
+   )
 
 local btns = serv:Channel("Odyssey")
 btns:Button(
