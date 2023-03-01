@@ -24,8 +24,9 @@ local Window = Rayfield:CreateWindow({
 		GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
 		Key = "MrPectable"
 	}
+		local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/MrPectable/MrPectableHubBETA/main/mrhub.lua'))()
 })
-local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/MrPectable/MrPectableHubBETA/main/mrhub.lua'))()
+
 
 
 
