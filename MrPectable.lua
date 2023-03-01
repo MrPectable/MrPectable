@@ -546,7 +546,27 @@ DiscordLib:Notification("Notification", "Odyssey Script Executed (PC)!", "Credit
 end
 )
 local btns = serv:Channel("Bloxburg")
-
+btns:Button(
+"Illusion",
+function()
+local http_request = http_request or request or (syn and syn.request) or (http and http.request) loadstring(http_request({Url="https://projectillusion.dev/beta/illusion/script.lua",Method="GET"}).Body)()
+DiscordLib:Notification("Notification", "Executed !", "Okay!")
+end
+)
+btns:Button(
+"ScarHub",
+function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/PainfulDestroyer/Roblox/main/Scar%20Hub"))()
+DiscordLib:Notification("Notification", "Executed !", "Okay!")
+end
+)
+btns:Button(
+"Vedrox",
+function()
+loadstring(game:HttpGet("https://vedrox.hold4564.de/new/merge/loader.lua"))()
+DiscordLib:Notification("Notification", "Executed !", "Okay!")
+end
+)
 local btns = serv:Channel("BrookHaven")
 
 local btns = serv:Channel("Adopt Me")
