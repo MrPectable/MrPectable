@@ -77,6 +77,20 @@ btns:Button(
    )
 
 local btns = serv:Channel("Doors")
+btns:Button(
+"Darkrai X",
+    function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Darkrai-X/main/Games/Doors"))()
+        DiscordLib:Notification("Notification", "Darkrai X Script Executed !", "Okay!")
+    end
+   )
+btns:Button(
+"Vynixius",
+    function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Doors/Script.lua"))()
+        DiscordLib:Notification("Notification", "Vynixius Script Executed !", "Okay!")
+    end
+   )
 
 local btns = serv:Channel("Evade")
 
