@@ -552,15 +552,13 @@ local btns = serv:Channel("JailBreak")
 local btns = serv:Channel("Prison Life")
 
 local btns = serv:Channel("More Soon")
+
 local lbls = serv:Channel("Credits & Info")
 
 lbls:Label("Owner|Creator- MrPectable")
 
 lbls:Label("Helper- Deity#1001")
 lbls:Label("Helper- ‘a#7585")
-
-
-
     end
 )
 
