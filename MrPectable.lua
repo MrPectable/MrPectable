@@ -621,6 +621,15 @@ local btns = serv:Channel("Prison Life")
 
 
 
+local btns = serv:Channel("Arsenal")
+
+btns:Button(
+"DexHub",
+function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/HonestlyDex/DexHub/main/V3.lua"))()
+DiscordLib:Notification("Notification", "Executed !", "Okay!")
+end
+)
 local btns = serv:Channel("More Soon")
 local lbls = serv:Channel("Credits")
 
