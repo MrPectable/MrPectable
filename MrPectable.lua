@@ -186,6 +186,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/OneProtocol/Project/m
 DiscordLib:Notification("Notification", "Executed !", "Okay!")
 end
 )
+btns:Button(
 "9Strew",
 function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/9Strew/roblox/main/gamescripts/evade.lua'))()
@@ -663,6 +664,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/HonestlyDex/DexHub/ma
 DiscordLib:Notification("Notification", "Executed !", "Okay!")
 end
 )
+btns:Button(
 "Strikehub",
 function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ccxmIcal/cracks/main/strikehub.lua"))()
