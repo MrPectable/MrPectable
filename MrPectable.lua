@@ -579,9 +579,9 @@ end
 
 local btns = serv:Channel("Adopt Me")
 btns:Button(
-"AntarticHub",
+"ReQiuYTPLHub",
 function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/JusticeValley/Antarctic-Hub/main/New.lua", true))()
+loadstring(game:HttpGet(('https://gitfront.io/r/ReQiuYTPL/wFUydaK74uGx/hub/raw/ReQiuYTPLHub.lua'),true))()
 DiscordLib:Notification("Notification", "Executed !", "Okay!")
 end
 )
@@ -644,5 +644,6 @@ lbls:Label("Feel Free to DM MrPectable#2662 On Discord For Questions or Help")
 
 local lbls = serv:Channel("Change Logs")
 lbls:Label("Fixed Bugs & Added 25 New Scripts |March 1st 2023| 3:53 PM EST")
+lbls:Label("Added New Scripts To Each Channel |March 1st 2023| 6:57 PM EST")
 
 win:Server("Main", "http://www.roblox.com/asset/?id=6031075938")
