@@ -186,6 +186,12 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/OneProtocol/Project/m
 DiscordLib:Notification("Notification", "Executed !", "Okay!")
 end
 )
+"9Strew",
+function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/9Strew/roblox/main/gamescripts/evade.lua'))()
+DiscordLib:Notification("Notification", "Executed !", "Okay!")
+end
+)
 
 
 local btns = serv:Channel("Dahood")
@@ -654,6 +660,12 @@ btns:Button(
 "DexHub",
 function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/HonestlyDex/DexHub/main/V3.lua"))()
+DiscordLib:Notification("Notification", "Executed !", "Okay!")
+end
+)
+"Strikehub",
+function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ccxmIcal/cracks/main/strikehub.lua"))()
 DiscordLib:Notification("Notification", "Executed !", "Okay!")
 end
 )
