@@ -618,7 +618,27 @@ DiscordLib:Notification("Notification", "Executed !", "Okay!")
 end
 )
 local btns = serv:Channel("JailBreak")
-
+btns:Button(
+"Auto Robber",
+function()
+loadstring(game:HttpGet('https://scripts.luawl.com/14245/JailbreakerFree.lua'))()
+DiscordLib:Notification("Notification", "Executed !", "Okay!")
+end
+)
+btns:Button(
+"Auto Arrest",
+function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/NukeVsCity/Scripts2022/main/panzerONE'))()
+DiscordLib:Notification("Notification", "Executed !", "Okay!")
+end
+)
+btns:Button(
+"Kuri",
+function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/KuriWasTaken/MonkeyScripts/main/JailMonkey.lua"))()
+DiscordLib:Notification("Notification", "Executed !", "Okay!")
+end
+)
 
 
 local btns = serv:Channel("Prison Life")
