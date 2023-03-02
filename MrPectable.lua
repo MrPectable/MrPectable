@@ -585,6 +585,13 @@ loadstring(game:HttpGet(('https://gitfront.io/r/ReQiuYTPL/wFUydaK74uGx/hub/raw/R
 DiscordLib:Notification("Notification", "Executed !", "Okay!")
 end
 )
+btns:Button(
+"V.G Hub",
+function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+DiscordLib:Notification("Notification", "Executed !", "Okay!")
+end
+)
 
 local btns = serv:Channel("Flee The Facility")
 btns:Button(
