@@ -49,6 +49,13 @@ end
 )
 local btns = serv:Channel("PSX")
 btns:Button(
+"Project WD",
+function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/RiseValco/keybypasses/main/projectwd.lua"))()
+DiscordLib:Notification("Notification", "Executed !", "Okay!")
+end
+)
+btns:Button(
 "SAZA",
 function()
  loadstring(game:HttpGet"https://raw.githubusercontent.com/KuppaHX/Saza/main/SazaLoader.lua")()
