@@ -689,6 +689,13 @@ loadstring(game:HttpGet(('https://raw.githubusercontent.com/Islands-IRS/public/m
 DiscordLib:Notification("Notification", "Executed !", "Okay!")
 end
 )
+btns:Button(
+"One Protocol",
+function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/OneProtocol/Project/main/Loader", true))()
+DiscordLib:Notification("Notification", "Executed !", "Okay!")
+end
+)
 
 
 local btns = serv:Channel("More Soon")
