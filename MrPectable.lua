@@ -677,7 +677,20 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/ccxmIcal/cracks/main/
 DiscordLib:Notification("Notification", "Executed !", "Okay!")
 end
 )
-  
+local btns = serv:Channel("Islands")
+btns:Button(
+"IRS",
+function()
+-- how to get key: go in the discord server and type /key in #bot-cmds
+-- https://discord.gg/Pebq4DtBTW
+
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/Islands-IRS/public/main/Islands')))()
+-- made by bon bon, itoshi  and demonic
+DiscordLib:Notification("Notification", "Executed !", "Okay!")
+end
+)
+
+
 local btns = serv:Channel("More Soon")
 local lbls = serv:Channel("Credits")
 
