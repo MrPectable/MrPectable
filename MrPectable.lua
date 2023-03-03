@@ -130,7 +130,7 @@ end
 btns:Button(
 "JMES",
 function()
-loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/jmesfo0/RobloxScripts/main/psx-jmes.lua%22))()
+loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/jmesfo0/RobloxScripts/main/psx-jmes.lua%22"))()
 DiscordLib:Notification("Notification", "JMES Executed !", "Okay!")
 end
 )
