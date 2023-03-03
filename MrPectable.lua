@@ -49,6 +49,39 @@ end
 )
 local btns = serv:Channel("PSX")
 btns:Button(
+"Auto-Collect",
+function()
+_G.AutoCollectCoins = true -- false to turn off
+_G.AutoCollectLootBags = true -- false to turn off
+
+spawn(function()
+    while task.wait() do
+        if getgenv().AutoCollectCoins then
+            pcall(function ()
+                for i,orb in pairs(game:GetService("Workspace")["__THINGS"].Orbs:GetChildren()) do
+                    orb.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+                end
+            end)
+        end
+    end
+end)
+warn("Made By MHD444#0001")
+
+spawn(function()
+    while task.wait() do
+        if _G.AutoCollectLootBags then
+            pcall(function ()
+                for i,bag in pairs(game:GetService("Workspace")["__THINGS"].Lootbags:GetChildren()) do
+                    bag.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+                end
+            end)
+        end
+    end
+end)
+DiscordLib:Notification("Notification", "Executed !", "Okay!")
+end
+)
+btns:Button(
 "Project WD",
 function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/RiseValco/keybypasses/main/projectwd.lua"))()
@@ -744,5 +777,6 @@ lbls:Label("Feel Free to DM MrPectable#2662 On Discord For Questions or Help")
 local lbls = serv:Channel("Change Logs")
 lbls:Label("Fixed Bugs & Added 25 New Scripts |March 1st 2023| 3:53 PM EST")
 lbls:Label("Added New Scripts To Each Channel |March 1st 2023| 6:57 PM EST")
+lbls:Label("Added New Scripts To PSX & Islands|March 3rd 2023| 6:58 PM EST")
 
 win:Server("Main", "http://www.roblox.com/asset/?id=6031075938")
